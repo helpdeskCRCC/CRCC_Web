@@ -1,2 +1,9 @@
-Just testing permissions here, but this is also a good place to keep notes on the project. 
-It's a good one.
+# Drupal 8 CRCC Installation
+
+With PHP Composer, run:
+* composer install
+
+Then with Drush clear the registry, reset the configuration and clear the registry again:
+* drush cr
+* drush cim -y
+* drush cr

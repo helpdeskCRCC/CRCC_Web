@@ -1,0 +1,22 @@
+uuid: dea8c968-80b4-4e1e-9377-64dd48c7b893
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - crcc_wxt_bootstrap
+_core:
+  default_config_hash: Jx3NwD_ieAzJWK8hQ-N23eqTllZrvEbm_slIFl0jf1g
+id: crcc_wxt_bootstrap_breadcrumbs
+theme: crcc_wxt_bootstrap
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: ff6afef8-c5cd-4306-a80a-14a027867a67
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_news_release
+label: 'News Release comment'
+target_entity_type_id: node
+description: null

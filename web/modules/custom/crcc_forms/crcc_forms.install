@@ -1,0 +1,82 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the crcc_forms module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function crcc_forms_install() {
+  $aliases = [
+    // Make complaint form.
+    '/make-complaint-form' => '/formulaire-de-plainte-en-ligne',
+
+    // Thank you and failure pages.
+    '/thank-you' => '/merci',
+    '/failed-submission' => '/echec-denvoi',
+    '/preview-and-submit-form' => '/merci-0',
+
+    // Public complaint form.
+    '/fill-your-form' => '/formulaire-de-plainte-du-public-reserve-lusage-de-la-grc',
+
+    // Contact form.
+    '/contact-form' => '/contactez-nous',
+
+    // Request for Review Form.
+    '/request-review-form' => '/formulaire-de-demande-dexamen',
+  ];
+  foreach ($aliases as $alias_en => $alias_fr) {
+    foreach ([$alias_en, $alias_fr] as $alias) {
+
+      // Modify path aliases.
+      $path_alias = \Drupal::service('entity.manager')->getStorage('path_alias')->loadByProperties([
+        'alias' => $alias,
+      ]);
+      $path_alias = reset($path_alias);
+
+      if ($path_alias) {
+        $path_alias->setAlias($alias . '--old');
+        $path_alias->save();
+
+        // Unpublish nodes.
+        // TODO: delete nodes later.
+        $path = $path_alias->getPath();
+        $path_segments = explode('/', $path);
+        if (isset($path_segments[1]) && $path_segments[1] == 'node') {
+
+          $nid = $path_segments[2];
+          $node = \Drupal::service('entity.manager')->getStorage('node')->load($nid);
+          if ($node->isPublished()) {
+            $node->setPublished(FALSE);
+            $node->save();
+          }
+
+          // Update menu links.
+          $menu_links = \Drupal::service('entity.manager')->getStorage('menu_link_content')->loadByProperties([
+            'link__uri' => 'entity:node/' . $nid,
+          ]);
+          foreach ($menu_links as $menu_link) {
+            $menu_link->set('link', ['uri' => 'internal:' . $alias_en]);
+            $menu_link->save();
+          }
+
+        }
+
+      }
+
+    }
+
+    // Create path aliases for the forms.
+
+    // TODO: delete after the aliases have been removed.
+    // Remove accidentally created aliases.
+    \Drupal::service('path.alias_storage')->delete(['source' => $alias_en]);
+
+    if (!\Drupal::service('path.alias_storage')->lookupPathSource($alias, 'fr')) {
+      \Drupal::service('path.alias_storage')->save($alias_en, $alias_fr, 'fr');
+    }
+
+  }
+}

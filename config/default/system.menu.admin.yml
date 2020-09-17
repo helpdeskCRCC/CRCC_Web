@@ -1,0 +1,10 @@
+uuid: cfc40edb-c95c-42f1-bc83-2d724baf79c3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Management
+description: ''
+locked: true

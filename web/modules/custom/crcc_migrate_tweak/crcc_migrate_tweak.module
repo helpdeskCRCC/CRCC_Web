@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Implements hook_TYPE_alter().
+ *
+ * Replaces class for the 'menu_link' migrate source plugin.
+ */
+function crcc_migrate_tweak_migrate_source_info_alter(&$definitions) {
+  $definitions["menu_link"]["class"] = 'Drupal\crcc_migrate_tweak\Plugin\migrate\source\CrccMenuLink';
+}
+
+/**
+ * Implements hook_migration_plugins_alter().
+ */
+function crcc_migrate_tweak_migration_plugins_alter(array &$migrations) {
+//  $migrations["d7_menu_links"]["source"]["plugin"] = 'crcc_menu_link';
+
+  // Add language.
+  $migrations["d7_menu_links"]["process"]['langcode'] = 'language';
+}

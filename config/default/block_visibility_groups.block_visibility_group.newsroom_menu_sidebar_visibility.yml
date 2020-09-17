@@ -1,0 +1,26 @@
+uuid: c44e7fd5-8107-4d82-892d-987a2f817fc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+id: newsroom_menu_sidebar_visibility
+label: 'Newsroom menu. Sidebar. Visibility'
+logic: or
+conditions:
+  d35f30e7-1967-4f15-8fd1-b721339688fd:
+    id: 'entity_bundle:node'
+    bundles:
+      news_release: news_release
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: d35f30e7-1967-4f15-8fd1-b721339688fd
+  eb7f38ad-594a-4861-99af-cb4ab119315f:
+    id: request_path
+    pages: "/newsroom\r\n/newsroom/*"
+    negate: false
+    context_mapping: {  }
+    uuid: eb7f38ad-594a-4861-99af-cb4ab119315f
+allow_other_conditions: false

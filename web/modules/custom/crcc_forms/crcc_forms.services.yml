@@ -1,0 +1,4 @@
+services:
+  crcc_forms.crcc_form_helper:
+    class: Drupal\crcc_forms\CrccFormHelper
+    arguments: ['@language_manager', '@http_client']

@@ -1,0 +1,7 @@
+name: 'crcc_migrate_tweak'
+type: module
+description: 'CRCC Migrate Tweak'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - migrate_drupal

@@ -1,0 +1,45 @@
+breadcrumb_home: 1
+breadcrumb_title: 0
+_core:
+  default_config_hash: X6at6z2v1hqgufP6vxNtxLXYDM0i3oOtPZw4ypA0Fqw
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://dev-crcc-ccetp-d8.pantheonsite.io/themes/custom/crcc_wxt_bootstrap/favicon.ico'
+  use_default: true
+schemas:
+  bootstrap: 8000
+  wxt_bootstrap: 8000
+  crcc_wxt_bootstrap: 8000
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+  logo: false
+  name: true
+  slogan: true
+logo:
+  path: ''
+  url: ''
+  use_default: false
+wxt_megamenu_more_link: 1
+region_wells:
+  branding: ''
+  breadcrumb: ''
+  language_toggle: ''
+  banner: ''
+  search: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  content_footer: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+  footer_bottom: ''
+reset_http_request_cache: ''
+table: ''

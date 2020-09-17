@@ -1,0 +1,52 @@
+uuid: 2bebcf65-e45d-4977-ba5a-b9f20ad5f0c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.newsroom_menu_sidebar_visibility
+    - system.menu.menu-newsroom
+  module:
+    - block_visibility_groups
+    - menu_block
+    - menu_block_title
+    - php
+    - wxt_library
+  theme:
+    - crcc_wxt_bootstrap
+third_party_settings:
+  menu_block_title:
+    modify_title: false
+id: newsroom
+theme: crcc_wxt_bootstrap
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'menu_block:menu-newsroom'
+settings:
+  id: 'menu_block:menu-newsroom'
+  label: Newsroom
+  provider: menu_block
+  label_display: visible
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand: false
+  parent: 'menu-newsroom:views_view:views.newsroom.page'
+  suggestion: menu_newsroom
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: newsroom_menu_sidebar_visibility
+    context_mapping: {  }
+  php:
+    id: php
+    php: '<?php return TRUE; ?>'
+    negate: 0
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: 0
+    context_mapping: {  }

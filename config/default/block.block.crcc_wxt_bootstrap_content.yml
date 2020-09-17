@@ -1,0 +1,22 @@
+uuid: 03ea3ed4-afdb-442c-a79e-989b07994f34
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - crcc_wxt_bootstrap
+_core:
+  default_config_hash: tKnxXzEgiZt4P1kSKifNzbrryhog9XteiDVXbdjt0rc
+id: crcc_wxt_bootstrap_content
+theme: crcc_wxt_bootstrap
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,922 @@
+# French translation of Civilian Review and Complaints Commission for the RCMP
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-08-26 17:39+0000\n"
+"PO-Revision-Date: 2020-08-26 17:39+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Main navigation"
+msgstr "Menu principal"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Fields"
+msgstr "Champ"
+
+msgid "French"
+msgstr "Français"
+
+msgid "Government of Canada"
+msgstr "Gouvernement du Canada"
+
+msgid "Email"
+msgstr "Adresse de courriel"
+
+msgid "Email address"
+msgstr "Adresse de courriel"
+
+msgid "Thank you for visiting the Commission's Web site."
+msgstr "Merci d’avoir visité le site Web de la Commission."
+
+msgid ""
+"I want to <a href=\"/en/make-complaint\">file a complaint</a> against "
+"a member of the <abbr title=\"Royal Canadian Mounted "
+"Police\">RCMP</abbr>"
+msgstr ""
+"Je veux <a href=\"/fr/depot-dune-plainte\">déposer une plainte</a> "
+"contre un membre de la GRC"
+
+msgid ""
+"I am not satisfied with the way the RCMP handled my complaint and "
+"would like the Commission to <a href=\"/en/request-review\">review the "
+"disposition of my complaint</a>"
+msgstr ""
+"Je ne suis pas satisfait(e) des conclusions de la GRC concernant ma "
+"plainte et j’aimerais que la Commission <a "
+"href=\"/fr/demande-dexamen\">examine le règlement de ma plainte</a>"
+
+msgid ""
+"I wish to make an <a "
+"href=\"/en/making-access-information-and-privacy-request\">access to "
+"Information or privacy (ATIP) request</a>"
+msgstr ""
+"Je souhaite présenter une <a "
+"href=\"/fr/pr-senter-une-demande-dacc-s-linformation-et-de-communication-de-renseignements-personnels\">demande "
+"d’accès à l’information ou de communication de renseignements "
+"personnels (AIPRP)</a>"
+
+msgid ""
+"I am a journalist and wish to contact a <a href=\"/en/newsroom\">media "
+"spokesperson</a>"
+msgstr ""
+"Je suis journaliste et j’aimerais communiquer avec <a "
+"href=\"/fr/salle-des-nouvelles\">un(e) porte-parole</a>"
+
+msgid ""
+"If you cannot find the answer to your question above, please fill in "
+"the following form."
+msgstr ""
+"Si vous ne trouvez pas la réponse à votre question dans les pages "
+"susmentionnées, veuillez remplir le formulaire suivant."
+
+msgid "First Name (Required)"
+msgstr "Prénom (obligatoire)"
+
+msgid "Last Name (Required)"
+msgstr "Nom (obligatoire)"
+
+msgid "Subject (Required)"
+msgstr "Objet (obligatoire)"
+
+msgid "Comments (Required)"
+msgstr "Commentaires (obligatoire)"
+
+msgid "- Select -"
+msgstr "- Sélectionner -"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid ""
+"I consent to the use of my personal information by the Civilian Review "
+"and Complaints Commission for the purpose of responding to my inquiry. "
+"(Required)"
+msgstr ""
+"Je donne la permission à la Commission civile d'examen et de "
+"traitement des plaintes relatives à la GRC d'utiliser mes données "
+"personnelles pour répondre à mon enquête. (obligatoire)"
+
+msgid "Submit & Print"
+msgstr "Soumettre"
+
+msgid "Clear form"
+msgstr "Effacer le formulaire"
+
+msgid "Contact Form"
+msgstr "Contactez-nous"
+
+msgid "Email Address (email@email.com) (Required)"
+msgstr "Adresse de courriel (nom@courriel.com) (obligatoire)"
+
+msgid "Spam detected!"
+msgstr "Spam détecté!"
+
+msgid ""
+"Thank you for contacting the Commission. Your reference number is "
+"<strong>@result</strong>"
+msgstr ""
+"Merci d'avoir communiqué avec la Commission. Voici votre numéro de "
+"référence <strong>@result</strong>"
+
+msgid "Submit complaint"
+msgstr "Soumettre la plainte"
+
+msgid ""
+"The Complaint Form along with all other relevant documentation will be "
+"shared with the <abbr title=\"Royal Canadian Mounted "
+"Police\">RCMP</abbr> for investigation pursuant to <a "
+"href=\"http://laws-lois.justice.gc.ca/eng/acts/R-10/page-14.html#s-45.53ss-(10)ID0EBCA\">subsection "
+"45.53(10)  of the <abbr title=\"Royal Canadian Mounted "
+"Police\">RCMP</abbr> Act.</a> Accordingly, a RCMP complaint "
+"investigator may contact you to provide a statement."
+msgstr ""
+"Le Formulaire de plainte et tous les documents pertinents seront "
+"acheminés à la GRC pour une enquête en vertu du <a "
+"href=\"http://laws-lois.justice.gc.ca/fra/lois/R-10/page-14.html#s-45.53ss-(10)ID0EBCA\">paragraphe "
+"45.53(10) de la <em>Loi sur la GRC</em></a>. Par conséquent, un "
+"enquêteur de la GRC pourrait vous demander de donner une "
+"déclaration."
+
+msgid "Complaint Checklist"
+msgstr "Aide-mémoire pour le dépôt d'une plainte"
+
+msgid "Does your complaint concern:"
+msgstr "Votre plainte vise-t-elle :"
+
+msgid "the on-duty conduct of an RCMP officer?"
+msgstr "la conduite d'un membre de la GRC en service?"
+
+msgid "and"
+msgstr "et"
+
+msgid "an incident that occurred within the last 12 months?"
+msgstr "un incident s'étant produit au cours des 12 derniers mois?"
+
+msgid "Are you:"
+msgstr "Êtes-vous :"
+
+msgid "directly involved in the incident?"
+msgstr "directement lié(e) à l'incident?"
+
+msgid "or"
+msgstr "ou"
+
+msgid "a witness?"
+msgstr "un témoin?"
+
+msgid "authorized to act on behalf of someone who was?"
+msgstr "autorisé(e) à agir au nom d'une personne qui l'est?"
+
+msgid "RCMP Members"
+msgstr "Membre de la GRC"
+
+msgid ""
+"If you are an RCMP member assisting a member of the public with the "
+"filing of their public complaint, please click <a "
+"href=\"/en/make-complaint-rcmp-use-only\"><strong>here</strong></a>."
+msgstr ""
+"Si vous êtes un membre de la GRC qui aidez un membre du public à "
+"formuler une plainte, veuillez cliquer  <a "
+"href=\"/fr/depot-dune-plainte-reserve-lusage-de-la-grc\"><strong>ici</strong></a>."
+
+msgid "Complainant Information"
+msgstr "Renseignements au sujet du plaignant"
+
+msgid "Family Name (Required)"
+msgstr "Nom de famille (obligatoire)"
+
+msgid "Given Name (Required)"
+msgstr "Prénom (obligatoire)"
+
+msgid "Date of Birth"
+msgstr "Date de naissance"
+
+msgid "Street Address or Post Office Box (Required)"
+msgstr "Adresse municipale ou casier postal (obligatoire) "
+
+msgid "City (Required)"
+msgstr "Ville (obligatoire)"
+
+msgid "Please Select"
+msgstr "Veuillez choisir"
+
+msgid "Province (Canada) (Required)"
+msgstr "Province (Canada) (obligatoire)"
+
+msgid "Postal Code / ZIP Code (Required)"
+msgstr "Code postal / ZIP (obligatoire)"
+
+msgid "Country (Required)"
+msgstr "Pays (obligatoire)"
+
+msgid "Telephone number where you can be reached (999-999-9999) (Required)"
+msgstr ""
+"Numéro de téléphone où l'on peut vous joindre (999-999-9999) "
+"(obligatoire)"
+
+msgid "E-mail Address (yourname@domain.com)"
+msgstr "Adresse de courriel (votrenom@domaine.com)"
+
+msgid "Preferred Language of Correspondence (Required)"
+msgstr "Langue de correspondance préférée (obligatoire)"
+
+msgid "Preferred method of communication (Required)"
+msgstr "Mode de communication privilégié (obligatoire)"
+
+msgid ""
+"Were you the person involved in the incident being complained of? "
+"(Required)"
+msgstr ""
+"L'incident faisant l'objet de la plainte vous concerne-t-il "
+"directement? (obligatoire)"
+
+msgid ""
+"If you were given a file number by the RCMP with respect to the "
+"incident, please provide it (if known)"
+msgstr ""
+"Si la GRC vous a donné un numéro de dossier concernant l'incident, "
+"veuillez l'indiquer (si vous le connaissez)"
+
+msgid ""
+"Have you previously filed a public complaint about this incident with "
+"the CRCC or the RCMP? (Required)"
+msgstr ""
+"Avez-vous déjà déposé une plainte auprès de la CCETP ou la GRC "
+"concernant l’incident? (obligatoire)"
+
+msgid ""
+"If yes, did you sign an agreement with the RCMP to resolve this "
+"complaint informally? (Required)"
+msgstr ""
+"Si oui, avez-vous conclu une entente avec la GRC pour régler la "
+"plainte à l’amiable? (obligatoire)"
+
+msgid "Representative Authorization"
+msgstr "Autorisation d'un représentant"
+
+msgid ""
+"Complete the following section <strong>ONLY</strong> if you want the "
+"Civilian Review and Complaints Commission for the RCMP (the "
+"Commission) and the RCMP to communicate directly with a legal "
+"representative or an advocate instead of yourself."
+msgstr ""
+"Remplir la section qui suit <strong>UNIQUEMENT</strong> si   vous "
+"souhaitez que la Commission civile d'examen et de traitement des "
+"plaintes relatives à la GRC (la Commission) et la GRC communiquent "
+"directement avec un représentant légal ou un porte-parole plutôt "
+"qu’avec vous."
+
+msgid "Family Name"
+msgstr "Nom de famille"
+
+msgid "Given Name"
+msgstr "Prénom"
+
+msgid "Telephone Number"
+msgstr "Numéro de téléphone"
+
+msgid "E-mail Address"
+msgstr "Adresse de courriel"
+
+msgid ""
+"By providing this information, you are authorizing the Commission and "
+"the RCMP to:"
+msgstr ""
+"En fournissant ces renseignements, vous autorisez la Commission et la "
+"GRC à :"
+
+msgid ""
+"Communicate directly with a legal representative or an advocate "
+"instead of yourself; and,"
+msgstr ""
+"Communiquer directement avec un représentant légal ou un "
+"porte-parole plutôt qu'avec vous;"
+
+msgid "Disclose information related to your complaint to your representative."
+msgstr "Divulguer à votre représentant des renseignements vous concernant."
+
+msgid "Details of Complaint <small>(complete as much as possible)</small>"
+msgstr ""
+"Détails concernant la plainte <small>(fournir le plus de "
+"renseignements possible)</small>"
+
+msgid ""
+"Where and when did the incident(s) that led to your complaint happen? "
+"Please fill in as much of the information as you know. If you do not "
+"know any specific details, you may wish to include details such as "
+"landmarks, etc."
+msgstr ""
+"À quel endroit et quand l'incident faisant l'objet de la plainte "
+"s'est-il produit? Veuillez fournir autant de renseignements que vous "
+"le pouvez. Si vous ne connaissez pas de détails précis, vous pouvez "
+"inclure des précisions concernant un point de repère, etc."
+
+msgid "Date of Incident"
+msgstr "Date de l'incident"
+
+msgid "Time of Incident (approx.)"
+msgstr "Heure de l'incident (approx.)"
+
+msgid "Province (Required)"
+msgstr "Province (obligatoire)"
+
+msgid "Location (city, town)"
+msgstr "Lieu (ville, village)"
+
+msgid "Please include:"
+msgstr "Fournissez des précisions concernant :"
+
+msgid "Who was involved"
+msgstr "Les personnes concernées"
+
+msgid "What was said and done"
+msgstr "Ce qui a été dit et fait"
+
+msgid ""
+"Any other people who witnessed the incident (including other police "
+"officers)"
+msgstr ""
+"Toutes autres personnes qui ont été témoins de l'incident (y "
+"compris d'autres policiers)"
+
+msgid "If there was any damage or injury"
+msgstr "Les blessures ou les dommages causés, s'il y a lieu"
+
+msgid ""
+"If there was something that you feel caused the incident or affected "
+"your interaction with the RCMP"
+msgstr ""
+"Un détail qui, selon vous, est à l'origine de l'incident ou qui a eu "
+"des conséquences sur vos échanges avec la GRC"
+
+msgid ""
+"Please provide the name(s) of any witness(es), if applicable. "
+"Witnesses may include RCMP members you are not complaining about."
+msgstr ""
+"Veuillez fournir le nom de tous les témoins, s'il y a lieu. Il peut "
+"s'agir de membres de la GRC dont la conduite ne fait pas l'objet de la "
+"plainte."
+
+msgid ""
+"Please provide, if possible, the name , rank and detachment of the "
+"RCMP member(s) whose behavior you are complaining about."
+msgstr ""
+"Veuillez fournir, si possible, le nom du membre de la GRC qui fait "
+"l'objet de votre plainte, ainsi que son grade et le détachement "
+"auquel il appartient."
+
+msgid "Is there anything else you would like to add?"
+msgstr "Y a-t-il autre chose que vous aimeriez ajouter?"
+
+msgid "Privacy & Disclosure of Personal Information"
+msgstr "Respect de la vie privée et divulgation de renseignements personnels"
+
+msgid ""
+"By submitting a completed complaint form, you are authorizing the "
+"Commission to collect your personal information for the purposes "
+"related to Parts VI, VII, VII.1 and VII.2 of the RCMP Act. This "
+"information is held in personal information bank CRCC PPU 005, and you "
+"have a right to access this information in accordance with the "
+"<em>Privacy Act</em>."
+msgstr ""
+"En soumettant le Formulaire de plainte dûment rempli, vous autorisez "
+"la Commission à recueillir vos renseignements personnels à des fins "
+"reliées au processus prévu aux parties VI, VII, VII.1 et VII.2 de la "
+"<em>Loi sur la GRC</em>. Les renseignements sont conservés dans le "
+"fichier de renseignements personnels CCETP PPU 005, et vous pouvez y "
+"accéder conformément à la <em>Loi sur la protection des "
+"renseignements personnels</em>."
+
+msgid ""
+"Completed public complaint forms, along with all other relevant "
+"documentation you provide to the Commission, will be forwarded to the "
+"RCMP for investigation pursuant to subsection 45.53(10) of the "
+"<em>RCMP Act</em> and an RCMP complaint investigator may contact you "
+"to provide a statement."
+msgstr ""
+"Le Formulaire de plainte dûment rempli ainsi que tous les documents "
+"pertinents que vous fournirez à la Commission seront acheminés à la "
+"GRC pour une enquête en vertu du paragraphe 45.53(10) de la <em>Loi "
+"sur la GRC</em>. Par conséquent, un enquêteur de la GRC chargé de "
+"la plainte pourrait vous demander de donner une déclaration."
+
+msgid "Acknowledgement"
+msgstr "Attestation"
+
+msgid ""
+"I have reviewed this public complaint form and the information I have "
+"provided is true and complete to the best of my knowledge."
+msgstr ""
+"J'ai passé en revue le Formulaire de plainte, et je reconnais que les "
+"renseignements fournis sont, à ma connaissance, complets et exacts."
+
+msgid ""
+"By clicking this box, you are acknowledging that the information "
+"provided is complete and accurate to the best of your knowledge. "
+"(Required)"
+msgstr ""
+"En cochant cette case, vous reconnaissez que les renseignements "
+"fournis sont complets et exacts au meilleur de votre connaissance. "
+"(obligatoire)"
+
+msgid "Complaint Form"
+msgstr "Formulaire de plainte en ligne"
+
+msgid ""
+"Please describe the circumstances that led to your complaint as "
+"completely as possible"
+msgstr ""
+"Veuillez décrire de la façon la plus complète possible les "
+"circonstances qui ont motivé votre plainte (obligatoire)"
+
+msgid "Failed Submission"
+msgstr "Échec d’envoi"
+
+msgid "Thank you"
+msgstr "Merci"
+
+msgid "the on-duty conduct of an  RCMP officer?"
+msgstr "la conduite d'un membre de la GRC en service?"
+
+msgid ""
+"An  error has occurred. Please try your submission again at another "
+"time, or call 1-800-665-6878 if you need to speak with a "
+"representative from the Civilian Review and Complaints Commission."
+msgstr ""
+"Une erreur s’est produite. Veuillez essayer de nouveau plus tard, ou "
+"composez le 1-800-665-6878 si vous voulez parler à un représentant "
+"de la Commission civile d’examen et de traitement des plaintes."
+
+msgid ""
+"The Commission has received your online complaint. It will be reviewed "
+"to make certain that it meets the requirements of a public complaint "
+"under the <em>Royal Canadian Mounted Police Act</em>."
+msgstr ""
+"La Commission a reçu votre plainte déposée en ligne. Nous "
+"l’examinerons afin de nous assurer qu’elle satisfait aux exigences "
+"relatives aux plaintes du public au sens de la <em>Loi sur la "
+"Gendarmerie royale du Canada</em>."
+
+msgid ""
+"In cases where additional information is needed, an intake officer "
+"will contact you using the details you provided."
+msgstr ""
+"Si des renseignements supplémentaires sont nécessaires, un agent des "
+"plaintes communiquera avec vous et se servira des détails que vous "
+"nous avez fournis."
+
+msgid "Your reference number is"
+msgstr "Voici votre numéro de référence"
+
+msgid ""
+"Your online complaint has been received. It will be reviewed to make "
+"certain that it meets the requirements of a public complaint under the "
+"<em>Royal Canadian Mounted Police Act</em>."
+msgstr ""
+"Nous accusons réception de votre plainte déposée en ligne. Nous "
+"l’examinerons afin de nous assurer qu’elle satisfait aux exigences "
+"relatives aux plaintes du public au sens de la <em>Loi sur la "
+"Gendarmerie royale du Canada</em>."
+
+msgid ""
+"In cases where additional information is needed, you will be contacted "
+"using the details you provided."
+msgstr ""
+"Si des renseignements supplémentaires sont nécessaires, nous "
+"communiquerons avec vous en utilisant l’information que vous avez "
+"fournie."
+
+msgid ""
+"If you need to make changes to the information you provided on this "
+"form, please call the CRCC directly at 1-800-665-6878."
+msgstr ""
+"Pour modifier tout renseignement fourni dans ce formulaire, veuillez "
+"appeler la CCETP directement, au 1-800-665-6878."
+
+msgid "Print"
+msgstr "Imprimer"
+
+msgid "Please print a copy of this page for your records."
+msgstr "Veuillez imprimer une copie de cette page pour vos dossiers."
+
+msgid "Your Information"
+msgstr "Votre information"
+
+msgid "Mailing Address"
+msgstr "Adress postale"
+
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+msgid "Preferred Language"
+msgstr "La langue de correspondance préférée"
+
+msgid "How does the complainant want to be contacted?"
+msgstr "Quel est le mode de communication privilégié du plaignant?"
+
+msgid ""
+"Has the complainant previously filed a complaint about this incident "
+"with the RCMP?"
+msgstr ""
+"Le plaignant a-t-il déjà déposé une plainte à la GRC en ce qui "
+"concerne cet incident?"
+
+msgid ""
+"If yes, did the complainant sign an agreement with the RCMP to resolve "
+"this complaint informally?"
+msgstr ""
+"Le cas échéant, le plaignant a-t-il conclu une entente avec la GRC "
+"pour régler la plainte à l'amiable?"
+
+msgid "Is the complainant directly involved in the incident?"
+msgstr "Le plaignant est-il directement lié à l'incident?"
+
+msgid "Incident Date"
+msgstr "Date de l'incident"
+
+msgid "Incident Time"
+msgstr "Heure de l'incident"
+
+msgid "Incident Location"
+msgstr "Lieu (ville, village)"
+
+msgid "Incident Province"
+msgstr "Province de l'incident"
+
+msgid "Incident Details"
+msgstr "Détails concernant la plainte"
+
+msgid "List the member(s) whose conduct the complainant is complaining about"
+msgstr ""
+"Inscrivez le nom du ou des membres de la GRC faisant l'objet de la "
+"plainte"
+
+msgid "Witness(es)"
+msgstr "Témoin(s)"
+
+msgid "Representive(s)"
+msgstr "Autorisation d'un représentant"
+
+msgid "RCMP Member and HRMIS#"
+msgstr "Membre de la GRC et n<sup>o</sup> HRMIS"
+
+msgid ""
+"If you are a member of the public, please click <a "
+"href=\"/en/make-complaint-form\">here</a> to be redirected to the "
+"public access form."
+msgstr ""
+"Si vous êtes un membre du public, cliquez <a "
+"href=\"/fr/formulaire-de-plainte-en-ligne\">ici</a> pour accéder au "
+"formulaire à l'intention du public."
+
+msgid ""
+"This public complaint form is for RCMP use only. RCMP members please "
+"note: This form is not for use for Code of Conduct or statutory "
+"offences."
+msgstr ""
+"Ce formulaire de plainte est réservé à l'usage de la GRC. Remarque "
+"à l'intention des membres de la GRC : Ne pas remplir le présent "
+"formulaire si la plainte vise une infraction prévue au code de "
+"déontologie ou une infraction créée par la loi."
+
+msgid ""
+"If you are using Internet Explorer and the form below is not "
+"displaying correctly, please contact the RCMP Central Helpdesk at "
+"1-800-461-7797 or 613-993-6666 for further assistance."
+msgstr ""
+"Si vous utilisez Internet Explorer et que le formulaire ci-dessous ne "
+"s’affiche pas correctement, veuillez appeler le Bureau "
+"d’assistance central de la GRC au 1-800-461-7797 ou 613-993-6666 "
+"pour obtenir de l’aide."
+
+msgid "Before completing this form, please advise members of the public that:"
+msgstr ""
+"Avant de remplir le formulaire, veuillez communiquer l'information "
+"suivante aux membres du public :"
+
+msgid ""
+"Complaints can be filed independently with the Civilian Review and "
+"Complaints Commission (CRCC);"
+msgstr ""
+"On peut déposer une plainte de façon indépendante auprès de la "
+"Commission civile d’examen et de traitement des plaintes (CCETP);"
+
+msgid ""
+"The public complaint process can be accessed through the CRCC's "
+"website at www.complaintscommission.ca;"
+msgstr ""
+"Des renseignements sur le processus de traitement des plaintes du "
+"public figurent sur le site Web de la CCETP, à l'adresse "
+"www.commissiondesplaintes.ca;"
+
+msgid ""
+"Pursuant to subsection 45.53(10) of the <em>RCMP Act</em>, the "
+"information provided on completed complaint forms will be forwarded to "
+"the RCMP as part of the public complaint process; and,"
+msgstr ""
+"En vertu du paragraphe 45.53(10) de la <em>Loi sur la GRC</em>, les "
+"renseignements consignés sur le formulaire de plainte seront transmis "
+"à la GRC dans le cadre du processus de traitement des plaintes du "
+"public;"
+
+msgid ""
+"An RCMP investigator may contact them to obtain a statement or further "
+"information related to the complaint."
+msgstr ""
+"Un enquêteur de la GRC pourrait leur demander de fournir une "
+"déclaration ou de plus amples renseignements concernant la plainte."
+
+msgid "Checklist"
+msgstr "Aide-mémoire"
+
+msgid "Members should ensure that the complaint concerns:"
+msgstr "Les membres doivent s'assurer que la plainte vise :"
+
+msgid ""
+"the conduct of an RCMP officer in the performance of their policing "
+"duties."
+msgstr "la conduite d'un membre de la GRC dans l'exercice de ses fonctions."
+
+msgid "an incident that occurred within the last 12 months."
+msgstr "un incident survenu au cours des 12 derniers mois."
+
+msgid ""
+"If the incident occurred more than 12 months ago, please advise the "
+"individual making the complaint that they will need to provide "
+"additional information / justification for the delay in order to "
+"determine if a time extension will be granted."
+msgstr ""
+"Si l'incident s'est produit il y a plus de 12 mois, veuillez informer "
+"le plaignant qu'il devra fournir des renseignements supplémentaires "
+"pour expliquer le retard; on décidera ensuite s'il y a lieu de lui "
+"accorder une prolongation du délai."
+
+msgid "Individuals making a complaint need to be:"
+msgstr "Pour déposer une plainte, la personne doit :"
+
+msgid "directly involved in the incident"
+msgstr "être directement liée à l'incident"
+
+msgid "a witness to the incident"
+msgstr "avoir été témoin de l'incident"
+
+msgid ""
+"a person authorized to act on behalf of the person directly involved "
+"in the incident"
+msgstr ""
+"être autorisée à agir au nom de la personne directement liée à "
+"l'incident"
+
+msgid "Complainant Contact Information"
+msgstr "Coordonnées du plaignant"
+
+msgid "Telephone number (999-999-9999) (Required)"
+msgstr "Numéro de téléphone (999-999-9999) (obligatoire)"
+
+msgid ""
+"What is the complainant’s preferred language of correspondence "
+"(Required)"
+msgstr ""
+"Quelle est la langue de correspondance préférée du plaignant? "
+"(obligatoire)"
+
+msgid "How does the complainant want to be contacted? (Required)"
+msgstr ""
+"Quel est le mode de communication privilégié du plaignant? "
+"(obligatoire)"
+
+msgid "Is the complainant directly involved in the incident? (Required)"
+msgstr "Le plaignant est-il directement lié à l'incident (obligatoire)"
+
+msgid ""
+"Complete the following section <strong>ONLY</strong> if the "
+"complainant wants the Civilian Review and Complaints Commission for "
+"the RCMP (the Commission) and the RCMP to communicate directly with a "
+"legal representative or an advocate <strong>instead</strong> of the "
+"complainant."
+msgstr ""
+"Remplissez la section qui suit <strong>UNIQUEMENT </strong> si  le "
+"plaignant souhaite que la Commission civile d'examen et de traitement "
+"des plaintes relatives à la GRC (la Commission) et la GRC "
+"communiquent directement avec un représentant légal ou un "
+"porte-parole plutôt qu'avec le plaignant."
+
+msgid ""
+"Please advise the complainant that by providing this information they "
+"are  authorizing the Commission &amp; RCMP to:"
+msgstr ""
+"Veuillez informer le plaignant qu'en fournissant ces renseignements, "
+"il autorise la Commission et la GRC à :"
+
+msgid ""
+"Communicate directly with a legal representative or an advocate "
+"instead of the complainant; and"
+msgstr ""
+"Communiquer directement avec un représentant légal ou un "
+"porte-parole plutôt qu'avec le plaignant;"
+
+msgid ""
+"Disclose information related to the complaint to the complainant's "
+"representative."
+msgstr ""
+"Divulguer au représentant du plaignant des renseignements concernant "
+"le plaignant."
+
+msgid "Please provide the representive(s) contact information."
+msgstr "Veuillez fournir les coordonnées du représentant."
+
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+msgid "Details of Complaint (complete as much as possible)"
+msgstr ""
+"Détails concernant la plainte (fournir le plus de renseignements "
+"possible)"
+
+msgid "Please describe the circumstances of the complaint (Required)"
+msgstr ""
+"Veuillez décrire les circonstances qui ont motivé la plainte "
+"(obligatoire)"
+
+msgid "Was there any damage or injury"
+msgstr "Les blessures ou les dommages causés, s'il y a lieu"
+
+msgid ""
+"Is there any additional information the individual believes relates to "
+"the incident or affected their interaction with the RCMP"
+msgstr ""
+"Un détail qui, selon le plaignant, est à l'origine de l'incident ou "
+"qui a eu des conséquences sur ses échanges avec la GRC"
+
+msgid "RCMP Member(s)"
+msgstr "Membre(s) de la GRC"
+
+msgid ""
+"List the member(s) whose conduct the individual is complaining about. "
+"If the complainant is unsure, please write UNKNOWN for each member "
+"involved and ask the individual to provide a brief physical "
+"description."
+msgstr ""
+"Inscrivez le nom du ou des membres de la GRC faisant l'objet de la "
+"plainte. Si le plaignant ne possède pas cette information, veuillez "
+"inscrire INCONNU pour chaque membre et demandez au plaignant de donner "
+"une brève description physique du ou des membres."
+
+msgid ""
+"Witness(es) if applicable. Witnesses may include RCMP members who are "
+"NOT the subject of the complaint. If the witness(es) and/or member(s) "
+"are unknown to the individual, ask the individual to provide a brief "
+"physical description."
+msgstr ""
+"Témoin(s), s’il y a lieu. Il peut s’agir de membres de la GRC "
+"dont la conduite NE FAIT PAS l’objet de la plainte. Si le plaignant "
+"ne possède pas cette information, demandez-lui de donner une brève "
+"description physique du témoin et/ou du membre."
+
+msgid "First Name, Last Name"
+msgstr "Prénom, Nom de famille"
+
+msgid "Contact Information (address, phone, email) if known"
+msgstr ""
+"Coordonnées (adresse, numéro de téléphone, adresse de courriel) si "
+"elles sont connues"
+
+msgid "Privacy &amp; Disclosure of Personal Information"
+msgstr "Respect de la vie privée et divulgation de renseignements personnels"
+
+msgid "Member should advise complainant of the following:"
+msgstr "L'information suivante doit être communiquée au plaignant :"
+
+msgid ""
+"By submitting a completed complaint form, the complainant authorizes "
+"the Commission to collect personal information for the purposes "
+"related to Parts VI, VII, VII.1 and VII.2 of the <em>RCMP Act</em>. "
+"This information is held in personal information bank CRCC PPU 005, "
+"and the complainant has a right to access this information in "
+"accordance with the <em>Privacy Act</em>."
+msgstr ""
+"En soumettant le formulaire de plainte dûment rempli, le plaignant "
+"autorise la Commission à recueillir ses renseignements personnels à "
+"des fins reliées au processus prévu aux parties VI, VII, VII.1 et "
+"VII.2 de la <em>Loi sur la GRC</em>. Les renseignements sont "
+"conservés dans le fichier de renseignements personnels CCETP PPU 005, "
+"et le plaignant peut y accéder conformément à la <em>Loi sur la "
+"protection des renseignements personnels</em>."
+
+msgid ""
+"Completed public complaint forms, along with all other relevant "
+"documentation the complainant provides to the Commission, will be "
+"forwarded to the RCMP for investigation pursuant to subsection "
+"45.53(10) of the <em>RCMP Act</em> and an RCMP investigator may "
+"contact the complainant to provide a statement."
+msgstr ""
+"Le formulaire de plainte dûment rempli ainsi que tous les documents "
+"pertinents que le plaignant fournira à la Commission seront "
+"acheminés à la GRC pour une enquête en vertu du paragraphe "
+"45.53(10) de la <em>Loi sur la GRC</em>. Un enquêteur de la GRC "
+"chargé de la plainte pourrait demander au plaignant de donner une "
+"déclaration."
+
+msgid ""
+"By clicking this box, you the member are acknowledging that you have "
+"reviewed the information contained on this form with the complainant "
+"and that the information is true and accurate to the best of their "
+"knowledge. (Required)"
+msgstr ""
+"En cochant cette case, vous, le membre, reconnaissez avoir passé en "
+"revue avec le plaignant les renseignements fournis dans le formulaire; "
+"ces renseignements sont, à la connaissance du plaignant, exacts. "
+"(obligatoire)"
+
+msgid "RCMP Member's Name and HRMIS # (Required)"
+msgstr "Membre de la GRC et n<sup>o</sup> HRMIS (obligatoire)"
+
+msgid "PUBLIC COMPLAINT FORM (for RCMP use only)"
+msgstr "FORMULAIRE DE PLAINTE DU PUBLIC (réservé à l’usage de la GRC)"
+
+msgid "Rank"
+msgstr "Grade"
+
+msgid "Detachment"
+msgstr "Détachement"
+
+msgid ""
+"Please complete the following if you are dissatisfied with the RCMP's "
+"disposition of your complaint and request that the Commission  review "
+"your complaint."
+msgstr ""
+"Veuillez remplir le formulaire ci-dessous si vous n’êtes pas "
+"satisfait(e) du règlement de votre plainte par la GRC et demandez que "
+"la Commission en fasse l’examen."
+
+msgid ""
+"<strong>Please note:</strong> In order for the Commission  to begin a "
+"review of your complaint, the RCMP MUST have completed their "
+"investigation and issued a Letter of Disposition."
+msgstr ""
+"<strong>Remarque:</strong> Afin que la Commission puisse commencer "
+"l’examen de votre plainte, la GRC DOIT avoir terminé son enquête "
+"et vous avoir envoyé une lettre de règlement."
+
+msgid "Requester Information"
+msgstr "Renseignements au sujet du demandeur / de la demandeuse"
+
+msgid "Street Address (Required)"
+msgstr "Adresse municipale (obligatoire) "
+
+msgid "Telephone number where you can be reached (Required)"
+msgstr "Numéro de téléphone où l’on peut vous joindre (obligatoire)"
+
+msgid "Additional information about your complaint"
+msgstr "Renseignements supplémentaires concernant votre plainte"
+
+msgid "RCMP File Number (If known)"
+msgstr "Numéro de dossier de la GRC (si vous le connaissez)"
+
+msgid "Commission File Number (If known)"
+msgstr "Numéro de dossier de la Commission (si vous le connaissez)"
+
+msgid ""
+"<strong>NOTE:</strong> If you would like your entire complaint "
+"reviewed, please indicate “ENTIRE COMPLAINT” in the box below)."
+msgstr ""
+"<strong>NOTA:</strong> Si vous voulez que votre plainte en entier soit "
+"examinée, veuillez inscrire « PLAINTE EN ENTIER » dans la case "
+"ci-dessous."
+
+msgid ""
+"Please list the allegation(s) you would like to have reviewed and the "
+"reason(s) (Required)"
+msgstr ""
+"Veuillez énumérer les allégations à examiner et en expliquer les "
+"raisons (obligatoire)"
+
+msgid "Submit request"
+msgstr "Soumettre la demande"
+
+msgid "Request for Review Form"
+msgstr "Formulaire de demande d’examen"
+
+msgid "Date modified:"
+msgstr "Date de modification:"
+
+msgid "Newsroom"
+msgstr "Salle des nouvelles"
+
+msgid "Media Inquiries"
+msgstr "Demandes de renseignements des médias"
+
+msgid "Stay Connected"
+msgstr "Restez branché"
+

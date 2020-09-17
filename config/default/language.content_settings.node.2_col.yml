@@ -1,0 +1,18 @@
+uuid: bbe11154-c61b-47d2-9f3d-2a2c7df9ef7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.2_col
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.2_col
+target_entity_type_id: node
+target_bundle: 2_col
+default_langcode: current_interface
+language_alterable: true

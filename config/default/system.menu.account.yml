@@ -1,0 +1,10 @@
+uuid: 66648598-3e99-4290-a910-a5cb15641876
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
+id: account
+label: 'User menu'
+description: ''
+locked: true

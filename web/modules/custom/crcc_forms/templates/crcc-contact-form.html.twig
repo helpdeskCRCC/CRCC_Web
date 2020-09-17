@@ -1,0 +1,35 @@
+<div class="wb-frmvld wb-fdbck nojs-hide">
+
+    {{ form.form_build_id }}
+    {{ form.form_token }}
+    {{ form.form_id }}
+
+    <p>{% trans %}Thank you for visiting the Commission's Web site.{% endtrans %}</p>
+
+    <ul>
+        <li>{% trans %}I want to <a href="/en/make-complaint">file a complaint</a> against a member of the <abbr title="Royal Canadian Mounted Police">RCMP</abbr>{% endtrans %}</li>
+        <li>{% trans %}I am not satisfied with the way the RCMP handled my complaint and would like the Commission to <a href="/en/request-review">review the disposition of my complaint</a>{% endtrans %}</li>
+        <li>{% trans %}I wish to make an <a href="/en/making-access-information-and-privacy-request">access to Information or privacy (ATIP) request</a>{% endtrans %}</li>
+        <li>{% trans %}I am a journalist and wish to contact a <a href="/en/newsroom">media spokesperson</a>{% endtrans %}</li>
+    </ul>
+
+    <p class="mrgn-bttm-lg">
+        <strong>
+            {% trans %}If you cannot find the answer to your question above, please fill in the following form.{% endtrans %}
+        </strong>
+    </p>
+
+    {{ form.contact_name_first }}
+    {{ form.contact_name_last }}
+    {{ form.contact_email }}
+    {{ form.contact_subject }}
+    {{ form.contact_comments }}
+
+    <div class="well">
+        {{ form.note_acknowledge }}
+    </div>
+
+    {{ form.submit }}
+    {{ form.clear }}
+
+</div>

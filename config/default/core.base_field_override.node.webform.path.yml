@@ -1,0 +1,20 @@
+uuid: f3dddb2a-ea57-4fd7-bd96-b1fb0bd55b75
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform
+  module:
+    - path
+id: node.webform.path
+field_name: path
+entity_type: node
+bundle: webform
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

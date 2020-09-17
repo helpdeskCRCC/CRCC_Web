@@ -1,0 +1,26 @@
+.crcc-complaint-form,
+.crcc-public-complaint-form {
+
+  fieldset:first-of-type {
+    border-top: 0;
+  }
+
+  .form-group:last-child {
+    margin-bottom: 15px;
+  }
+
+  p:last-child {
+    margin-bottom: 11.5px;
+  }
+
+  .select-wrapper select {
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+    appearance: menulist;
+  }
+
+  .checkbox label, .radio label {
+    font-weight: 700;
+  }
+
+}

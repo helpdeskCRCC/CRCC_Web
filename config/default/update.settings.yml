@@ -1,0 +1,6 @@
+notification:
+  threshold: security
+  emails:
+    - mingbo.ma@crcc-ccetp.gc.ca
+check:
+  interval_days: 1

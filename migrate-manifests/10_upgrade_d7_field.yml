@@ -1,0 +1,6 @@
+#  [notice] Field discovery failed for Drupal core version 7. Did this site have the CCK or Field module installed? Error: No database connection configured for source plugin d7_field_instance
+# The error got resolved with web/modules/custom/crcc_migrate_tweak
+- upgrade_d7_field
+- upgrade_d7_field_instance
+- upgrade_d7_field_formatter_settings
+- upgrade_d7_field_instance_widget_settings

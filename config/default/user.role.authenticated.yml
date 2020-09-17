@@ -1,0 +1,56 @@
+uuid: 199ccd80-0f78-456c-81a9-32aaf8cc22ed
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access devel information'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'administer blocks'
+  - 'administer content translations'
+  - 'administer menu'
+  - 'administer taxonomy'
+  - 'block IP addresses'
+  - 'bypass node access'
+  - 'create 1_col content'
+  - 'create 2_col content'
+  - 'create news_release content'
+  - 'create webform content'
+  - 'delete any 1_col content'
+  - 'delete any 2_col content'
+  - 'delete any news_release content'
+  - 'delete any webform content'
+  - 'delete own 1_col content'
+  - 'delete own 2_col content'
+  - 'delete own news_release content'
+  - 'delete own webform content'
+  - 'delete revisions'
+  - 'edit any 1_col content'
+  - 'edit any 2_col content'
+  - 'edit any news_release content'
+  - 'edit any webform content'
+  - 'edit own 1_col content'
+  - 'edit own 2_col content'
+  - 'edit own news_release content'
+  - 'edit own webform content'
+  - 'edit terms in 1'
+  - 'revert revisions'
+  - 'search content'
+  - 'translate content'
+  - 'use advanced search'
+  - 'use text format filtered_html'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view the administration theme'

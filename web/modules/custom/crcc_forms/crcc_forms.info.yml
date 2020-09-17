@@ -1,0 +1,5 @@
+name: 'crcc_forms'
+type: module
+description: 'CRCC forms'
+core: 8.x
+package: 'Custom'

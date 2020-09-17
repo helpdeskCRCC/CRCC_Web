@@ -1,0 +1,12 @@
+label: 'Salle des nouvelles'
+display:
+  default:
+    display_options:
+      title: 'Salle des nouvelles'
+      pager:
+        options:
+          tags:
+            previous: '‹ précédent'
+            next: 'suivant ›'
+            first: '« premier'
+            last: 'dernier »'

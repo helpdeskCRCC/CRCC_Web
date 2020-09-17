@@ -1,0 +1,6 @@
+#  [error]  Missing filter plugin: filter_null.
+# The error got resolved after composer require drupal/php
+- upgrade_d7_filter_format
+
+# Depends on upgrade_d7_filter_format
+- upgrade_d7_user_role

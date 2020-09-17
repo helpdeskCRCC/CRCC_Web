@@ -1,0 +1,35 @@
+uuid: c39fe85f-e844-4ec7-9488-b723be7d3a4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - wxt_library
+  theme:
+    - crcc_wxt_bootstrap
+_core:
+  default_config_hash: rDfD0GieZcyjvYmlABJfLEvbrf-Y-woidTTKOFzNIbc
+id: crcc_wxt_bootstrap_page_title
+theme: crcc_wxt_bootstrap
+region: header
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 1
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

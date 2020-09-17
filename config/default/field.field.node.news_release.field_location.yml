@@ -1,0 +1,19 @@
+uuid: 480a1a86-3345-481d-8f2d-68bf516525bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.news_release
+id: node.news_release.field_location
+field_name: field_location
+entity_type: node
+bundle: news_release
+label: Location
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

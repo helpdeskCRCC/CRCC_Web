@@ -1,0 +1,55 @@
+uuid: ba98cba8-c564-438b-a22d-10db87e19021
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-secondary-menu
+  module:
+    - block_visibility_groups
+    - menu_block
+    - menu_block_title
+    - php
+    - system
+    - wxt_library
+  theme:
+    - wxt_bootstrap
+third_party_settings:
+  menu_block_title:
+    modify_title: false
+id: secondarymenu_2
+theme: wxt_bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'menu_block:menu-secondary-menu'
+settings:
+  id: 'menu_block:menu-secondary-menu'
+  label: Services
+  provider: menu_block
+  label_display: visible
+  level: 1
+  depth: 1
+  expand: 0
+  parent: 'menu-secondary-menu:menu_link_content:1c1e60dc-11cc-4cab-a334-b464b8ebff2f'
+  suggestion: menu_secondary_menu
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  php:
+    id: php
+    php: '<?php return TRUE; ?>'
+    negate: 0
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/thank-you\r\n/merci"
+    negate: false
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: 0
+    context_mapping: {  }

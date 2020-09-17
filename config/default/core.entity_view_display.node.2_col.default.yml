@@ -1,0 +1,72 @@
+uuid: 673c7886-425c-4f0e-9b87-2035720da35c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_2_col.default
+    - field.field.node.2_col.body
+    - field.field.node.2_col.comment_node_2_col
+    - node.type.2_col
+  module:
+    - comment
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_twocol
+      library: layout_discovery/twocol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      top:
+        - langcode
+        - body
+        - comment_node_2_col
+        - links
+        - node_changed_date
+    fields:
+      node_changed_date:
+        plugin_id: node_changed_date
+        weight: 4
+        label: hidden
+        formatter: ds_post_date_date
+id: node.2_col.default
+targetEntityType: node
+bundle: 2_col
+mode: default
+content:
+  body:
+    label: hidden
+    weight: 1
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: top
+  comment_node_2_col:
+    label: hidden
+    type: comment_default
+    weight: 2
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: top
+  langcode:
+    type: language
+    weight: 0
+    region: top
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 3
+    region: top
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

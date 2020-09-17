@@ -1,0 +1,33 @@
+uuid: 130cf96f-7aa8-44dd-af5e-43879927b283
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.1_col.body
+    - field.field.node.1_col.comment_node_1_col
+    - node.type.1_col
+  module:
+    - text
+    - user
+id: node.1_col.teaser
+targetEntityType: node
+bundle: 1_col
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_1_col: true
+  langcode: true

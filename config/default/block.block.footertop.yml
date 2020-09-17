@@ -1,0 +1,51 @@
+uuid: 94c1921e-5382-47cb-a34c-961c3d8b7e7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-top
+  module:
+    - block_visibility_groups
+    - menu_block
+    - menu_block_title
+    - php
+    - wxt_library
+  theme:
+    - crcc_wxt_bootstrap
+third_party_settings:
+  menu_block_title:
+    modify_title: false
+id: footertop
+theme: crcc_wxt_bootstrap
+region: footer
+weight: -8
+provider: null
+plugin: 'menu_block:footer-top'
+settings:
+  id: 'menu_block:footer-top'
+  label: 'Footer top'
+  provider: menu_block
+  label_display: '0'
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand: false
+  parent: 'footer-top:'
+  suggestion: footer_top
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  php:
+    id: php
+    php: '<?php return TRUE; ?>'
+    negate: 0
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: 0
+    context_mapping: {  }

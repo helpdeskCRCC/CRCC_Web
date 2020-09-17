@@ -1,0 +1,26 @@
+uuid: 6d880f69-1f61-4ade-8b4c-e5050f5d9920
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+id: secondary_menu_sidebar_visibility
+label: 'Secondary menu. Sidebar. Visibility'
+logic: or
+conditions:
+  6c14aa00-923f-46dc-be9e-b1f6ffe43daa:
+    id: 'entity_bundle:node'
+    bundles:
+      2_col: 2_col
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: 6c14aa00-923f-46dc-be9e-b1f6ffe43daa
+  85c75f97-7a00-47de-b5d8-f550a5856039:
+    id: request_path
+    pages: "/make-complaint-form\r\n/fill-your-form\r\n/request-review-form"
+    negate: false
+    context_mapping: {  }
+    uuid: 85c75f97-7a00-47de-b5d8-f550a5856039
+allow_other_conditions: false

@@ -1,0 +1,12 @@
+uuid: e135f5d3-8669-439d-97e6-91aff0589e49
+langcode: en
+status: true
+dependencies: {  }
+id: user
+label: 'User - default'
+type: 'canonical_entities:user'
+pattern: 'users/[user:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

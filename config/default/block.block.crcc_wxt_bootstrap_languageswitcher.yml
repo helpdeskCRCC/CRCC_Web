@@ -1,0 +1,48 @@
+uuid: 8a4787ee-b8b2-44ac-bb50-3d72480b069c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - php
+    - wxt_library
+  theme:
+    - crcc_wxt_bootstrap
+_core:
+  default_config_hash: ORnrlhtLfLeu0JNAjmxJPq-afZjXb-xbdoUuyxvVX5Y
+id: crcc_wxt_bootstrap_languageswitcher
+theme: crcc_wxt_bootstrap
+region: language_toggle
+weight: -8
+provider: null
+plugin: 'wxt_language_block:language_interface'
+settings:
+  id: 'wxt_language_block:language_interface'
+  label: 'WxT Language switcher'
+  provider: wxt_library
+  label_display: '0'
+  wxt_theme: false
+  language_toggle:
+    theme-base: theme-base
+    theme-ogpl: theme-ogpl
+    theme-wet-boew: 0
+    theme-gcwu-fegc: 0
+    theme-gc-intranet: 0
+    theme-gcweb: 0
+    theme-gcweb-legacy: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  php:
+    id: php
+    php: '<?php return TRUE; ?>'
+    negate: 0
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: 0
+    context_mapping: {  }

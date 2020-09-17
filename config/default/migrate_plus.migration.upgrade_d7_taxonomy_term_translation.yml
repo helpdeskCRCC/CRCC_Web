@@ -1,0 +1,86 @@
+uuid: 1ae4e2d0-40c6-40e7-8162-7da18426bbdb
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_taxonomy_term_translation
+class: Drupal\migrate\Plugin\Migration
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+  - Multilingual
+migration_group: migrate_drupal_7
+label: 'Taxonomy terms'
+source:
+  plugin: d7_taxonomy_term_translation
+  translations: true
+process:
+  skip:
+    -
+      plugin: static_map
+      source: i18n_mode
+      default_value: 0
+      map:
+        1: 0
+        2: 2
+        4: 4
+    -
+      plugin: skip_on_empty
+      method: row
+  tid:
+    -
+      plugin: get
+      source: tid
+  langcode:
+    -
+      plugin: get
+      source: language
+  vid:
+    -
+      plugin: migration_lookup
+      migration: upgrade_d7_taxonomy_vocabulary
+      source: vid
+  name:
+    -
+      plugin: get
+      source: name
+  description/value:
+    -
+      plugin: get
+      source: description
+  description/format:
+    -
+      plugin: get
+      source: format
+  weight:
+    -
+      plugin: get
+      source: weight
+  parent_id:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: parent
+    -
+      plugin: migration_lookup
+      migration: upgrade_d7_taxonomy_term_tags
+  parent:
+    -
+      plugin: default_value
+      default_value: 0
+      source: '@parent_id'
+  changed:
+    -
+      plugin: get
+      source: timestamp
+destination:
+  plugin: 'entity:taxonomy_term'
+  destination_module: content_translation
+migration_dependencies:
+  required:
+    - upgrade_d7_taxonomy_term_tags
+  optional:
+    - upgrade_d7_taxonomy_vocabulary
+    - upgrade_d7_taxonomy_term_tags
+    - upgrade_d7_taxonomy_term_tags

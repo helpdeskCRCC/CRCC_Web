@@ -1,0 +1,10 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ précédent'
+            next: 'suivant ›'
+            first: '« premier'
+            last: 'dernier »'

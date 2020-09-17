@@ -1,0 +1,130 @@
+<p>
+    {% trans %}Your online complaint has been received. It will be reviewed to make certain that it meets the requirements of a public complaint under the <em>Royal Canadian Mounted Police Act</em>.{% endtrans %}
+</p>
+<p>
+    {% trans %}In cases where additional information is needed, you will be contacted using the details you provided.{% endtrans %}
+</p>
+
+<p>
+    {{ 'Your reference number is'|t }} <strong>{{ reference_number }}</strong>
+</p>
+
+<p>
+    {% trans %}If you need to make changes to the information you provided on this form, please call the CRCC directly at 1-800-665-6878.{% endtrans %}
+</p>
+
+<button class="btn btn-success button-print pull-right" onclick="window.print();"><strong>{{ 'Print'|t }}</strong></button>
+
+<div class="clearfix"></div>
+<p>
+    <strong>
+        {% trans %}Please print a copy of this page for your records.{% endtrans %}
+    </strong>
+</p>
+
+<table class="table table-striped table-bordered">
+
+    <tr class="active">
+        <th class="col-md-4 col-lft-print">{{ 'Fields'|t }}</th>
+        <th class="col-md-8 col-rht-print">{{ 'Your Information'|t }}</th>
+    </tr>
+
+    <tr>
+        <td>{{ 'Name'|t }}</td>
+        <td>{{ vals['complainant_name_family'] }}, {{ vals['complainant_name_given'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Mailing Address'|t }}</td>
+        <td>
+            {{ vals['complainant_address_mailing_street_nbr'] }} <br />
+            {{ vals['complainant_address_mailing_city'] }} <br />
+            {{ vals['complainant_address_mailing_province'] }} <br />
+            {{ vals['complainant_address_mailing_postalcode'] }} <br />
+            {{ vals['complainant_address_mailing_country'] }}
+        </td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Phone Number'|t }}</td>
+        <td>{{ vals['complainant_phone_home'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Email'|t }}</td>
+        <td>{{ vals['complainant_email'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Preferred Language'|t }}</td>
+        <td>{{ vals['complainant_language'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'How does the complainant want to be contacted?'|t }}</td>
+        <td>{{ vals['contact_tool'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Has the complainant previously filed a complaint about this incident with the RCMP?'|t }}</td>
+        <td>{{ vals['contact_for_messages_questions_form'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'If yes, did the complainant sign an agreement with the RCMP to resolve this complaint informally?'|t }}</td>
+        <td>{{ vals['contact_for_messages_questions_informal'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Is the complainant directly involved in the incident?'|t }}</td>
+        <td>{{ vals['contact_for_messages_questions_involved'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Incident Date'|t }}</td>
+        <td>{{ vals['incident_date'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Incident Time'|t }}</td>
+        <td>{{ vals['incident_time'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Incident Location'|t }}</td>
+        <td>{{ vals['incident_location'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Incident Province'|t }} </td>
+        <td>{{ vals['incident_province'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Incident Details'|t }}</td>
+        <td>{{ vals['circumstances'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'List the member(s) whose conduct the complainant is complaining about'|t }}</td>
+        <td>{{ vals['officer_entered_note'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Witness(es)'|t }}</td>
+        <td>{{ vals['witness_entered_note'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'Representive(s)'|t }}</td>
+        <td>{{ vals['contact_for_messages_organization'] }}</td>
+    </tr>
+
+    <tr>
+        <td>{{ 'RCMP Member and HRMIS#'|t }}</td>
+        <td>{{ vals['witness_added_note'] }}</td>
+    </tr>
+
+</table>
+
+<button class="btn btn-success button-print" onclick="window.print();"><strong>{{ 'Print'|t }}</strong></button>

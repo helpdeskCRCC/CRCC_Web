@@ -1,0 +1,33 @@
+uuid: 55b97a62-6122-4710-a44a-678e1c86749f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.webform.body
+    - field.field.node.webform.comment_node_webform
+    - node.type.webform
+  module:
+    - text
+    - user
+id: node.webform.teaser
+targetEntityType: node
+bundle: webform
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_webform: true
+  langcode: true

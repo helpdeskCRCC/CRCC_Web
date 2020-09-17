@@ -1,0 +1,33 @@
+uuid: 7bd7603d-c5c4-4dcd-ab30-519634a18b8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: news_release_en
+label: 'News Release. En'
+type: 'canonical_entities:node'
+pattern: 'newsroom/[node:title]'
+selection_criteria:
+  d62f93e9-3af5-4736-bb6a-9eeefafed667:
+    id: node_type
+    bundles:
+      news_release: news_release
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d62f93e9-3af5-4736-bb6a-9eeefafed667
+  219db3c7-7428-4220-9f9f-9e7a38bc4dae:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 219db3c7-7428-4220-9f9f-9e7a38bc4dae
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

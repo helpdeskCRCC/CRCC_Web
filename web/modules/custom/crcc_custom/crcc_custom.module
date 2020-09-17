@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Contains crcc_custom.module.
+ */
+
+/**
+ * Implements hook_language_switch_links_alter().
+ */
+function crcc_custom_language_switch_links_alter(array &$links, $type, $path) {
+
+  // Fake menu.
+  // Real menus' link field is not translatable.
+  // There is a module claiming to make it translatable - https://www.drupal.org/project/translatable_menu_link_uri
+  // but it didn't work. Moreover it preprocesses every single menu link which is excessive.
+  $top_menu = [
+    'en' => [
+      'Canada.ca' => 'https://www.canada.ca/en.html',
+      'Services' => 'https://www.canada.ca/en/services.html',
+      'Departments' => 'https://www.canada.ca/en/government/dept.html',
+    ],
+    'fr' => [
+      'Canada.ca' => 'https://www.canada.ca/fr.html',
+      'Services' => 'https://www.canada.ca/fr/services.html',
+      'Ministères' => 'https://www.canada.ca/fr/gouvernement/min.html',
+    ],
+  ];
+
+  $lang = \Drupal::languageManager()->getCurrentLanguage()->getId();
+
+  $menu_links = [];
+  foreach ($top_menu[$lang] as $title => $href) {
+    $menu_links[] = [
+      'title' => $title,
+      'url' => \Drupal\Core\Url::fromUri($href),
+    ];
+  }
+
+  // Prepend language links with the fake menu links.
+  $links = array_merge($menu_links, $links);
+
+}

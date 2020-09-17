@@ -1,0 +1,22 @@
+uuid: 9c9b4c63-b413-4f1d-906b-71683cecedbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - crcc_wxt_bootstrap
+_core:
+  default_config_hash: 4eMiBJNSNMAbB-qQ8aoD-BtvjkUpZ7YUN9uBZty2724
+id: crcc_wxt_bootstrap_help
+theme: crcc_wxt_bootstrap
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

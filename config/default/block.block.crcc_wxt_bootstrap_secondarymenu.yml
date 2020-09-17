@@ -1,0 +1,42 @@
+uuid: 4b7656ba-16c1-4674-90bd-da5b85045932
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.secondary_menu_sidebar_visibility
+    - system.menu.menu-secondary-menu
+  module:
+    - block_visibility_groups
+    - menu_block_title
+    - system
+    - wxt_library
+  theme:
+    - crcc_wxt_bootstrap
+third_party_settings:
+  menu_block_title:
+    modify_title: true
+id: crcc_wxt_bootstrap_secondarymenu
+theme: crcc_wxt_bootstrap
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'system_menu_block:menu-secondary-menu'
+settings:
+  id: 'system_menu_block:menu-secondary-menu'
+  label: 'Secondary Menu'
+  provider: system
+  label_display: visible
+  level: 2
+  depth: 0
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: secondary_menu_sidebar_visibility
+    context_mapping: {  }
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

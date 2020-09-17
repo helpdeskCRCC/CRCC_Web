@@ -1,0 +1,16 @@
+uuid: c29cefa2-64dc-4116-9bf3-83e73ef75896
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'News Release'
+type: news_release
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,5 @@
+# block_content
+- upgrade_block_content_type
+- upgrade_block_content_body_field
+- upgrade_block_content_entity_display
+- upgrade_block_content_entity_form_display

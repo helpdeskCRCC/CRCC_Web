@@ -1,0 +1,18 @@
+uuid: 4c5c4686-cfdb-4fe1-a653-7763f38525e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_news_release
+id: comment.comment_node_news_release.homepage
+field_name: homepage
+entity_type: comment
+bundle: comment_node_news_release
+label: Homepage
+description: 'The comment author''s home page address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

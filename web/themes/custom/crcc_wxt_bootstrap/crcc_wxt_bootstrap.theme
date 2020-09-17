@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * WxT Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Implements template_preprocess_form_element()
+ *
+ * @param $variables
+ *   Template variables.
+ */
+function crcc_wxt_bootstrap_preprocess_form_element(&$variables) {
+  // Unset 'form-inline' class for Date and Tel elements.
+  $types = ['date', 'tel'];
+  if (in_array($variables["element"]["#type"], $types) && !empty($variables["attributes"]["class"])) {
+    if (($index = array_search('form-inline', $variables["attributes"]["class"])) !== FALSE) {
+      unset($variables["attributes"]["class"][$index]);
+      if (empty($variables["attributes"]["class"])) unset($variables["attributes"]["class"]);
+    }
+  }
+
+}

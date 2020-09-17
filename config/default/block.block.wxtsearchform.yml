@@ -1,0 +1,22 @@
+uuid: 80d2a66a-1a9d-486d-a638-0d5861f62d00
+langcode: en
+status: true
+dependencies:
+  module:
+    - wxt_library
+  theme:
+    - wxt_bootstrap
+_core:
+  default_config_hash: e-ho1_W6GSM0obUJGLkn2mFRlOBVAcKka5NvLTHdopI
+id: wxtsearchform
+theme: wxt_bootstrap
+region: search
+weight: -7
+provider: null
+plugin: wxt_search_form_block
+settings:
+  id: wxt_search_form_block
+  label: 'WxT Search form'
+  provider: wxt_library
+  label_display: visible
+visibility: {  }

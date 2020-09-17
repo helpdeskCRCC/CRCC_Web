@@ -1,0 +1,5 @@
+translation:
+  update_interval_days: 7
+  use_source: remote_and_local
+  overwrite_customized: false
+  overwrite_not_customized: false

@@ -1,0 +1,16 @@
+uuid: ecc3e073-d48f-4a3b-a1ef-6a7e01c88419
+langcode: en
+status: false
+dependencies:
+  module:
+    - php
+name: 'PHP code'
+format: php_code
+weight: 11
+filters:
+  php_code:
+    id: php_code
+    provider: php
+    status: true
+    weight: 0
+    settings: {  }

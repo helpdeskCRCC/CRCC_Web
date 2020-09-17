@@ -1,0 +1,33 @@
+uuid: 8f3ab345-6c9d-4c94-84e0-133b6db976f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: news_release_fr
+label: 'News Release. Fr'
+type: 'canonical_entities:node'
+pattern: 'salle-des-nouvelles/[node:title]'
+selection_criteria:
+  e21a78bc-8333-41e8-8458-c2547db2d773:
+    id: node_type
+    bundles:
+      news_release: news_release
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e21a78bc-8333-41e8-8458-c2547db2d773
+  36632451-6dcc-4898-942a-b334e6427030:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 36632451-6dcc-4898-942a-b334e6427030
+selection_logic: and
+weight: -5
+relationships:
+  'node:langcode:language':
+    label: Language

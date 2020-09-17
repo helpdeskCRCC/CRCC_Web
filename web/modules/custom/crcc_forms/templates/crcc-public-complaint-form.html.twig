@@ -1,0 +1,342 @@
+<p class="mrgn-tp-md">
+    <strong>
+        {% trans %}If you are a member of the public, please click <a href="/en/make-complaint-form">here</a> to be redirected to the public access form.{% endtrans %}
+    </strong>
+</p>
+
+<p>
+    <strong>
+        {% trans %}This public complaint form is for RCMP use only. RCMP members please note: This form is not for use for Code of Conduct or statutory offences.{% endtrans %}
+    </strong>
+</p>
+
+<div class="alert alert-info mrgn-tp-md">
+
+    <p class="mrgn-tp-xl">
+        <strong>
+            {% trans %}If you are using Internet Explorer and the form below is not displaying correctly, please contact the RCMP Central Helpdesk at 1-800-461-7797 or 613-993-6666 for further assistance.{% endtrans %}
+        </strong>
+    </p>
+
+    <p class="mrgn-tp-xl">
+        <strong>
+            {% trans %}Before completing this form, please advise members of the public that:{% endtrans %}
+        </strong>
+    </p>
+
+    <ul>
+        <li>
+            {% trans %}Complaints can be filed independently with the Civilian Review and Complaints Commission (CRCC);{% endtrans %}
+        </li>
+        <li>
+            {% trans %}The public complaint process can be accessed through the CRCC's website at www.complaintscommission.ca;{% endtrans %}
+        </li>
+        <li>
+            {% trans %}Pursuant to subsection 45.53(10) of the <em>RCMP Act</em>, the information provided on completed complaint forms will be forwarded to the RCMP as part of the public complaint process; and,{% endtrans %}
+        </li>
+        <li>
+            {% trans %}An RCMP investigator may contact them to obtain a statement or further information related to the complaint.{% endtrans %}
+        </li>
+    </ul>
+
+</div>
+
+<div class="well well-md mrgn-tp-lg">
+
+    <h2 class="mrgn-tp-0">{{ 'Checklist'|t }}</h2>
+
+    <p>
+        <strong>
+            {% trans %}Members should ensure that the complaint concerns:{% endtrans %}
+        </strong>
+    </p>
+
+    <ul class="fa-ul">
+
+        <li class="mrgn-bttm-0">
+            <span class="fa fa-li fa-check text-success"></span>{% trans %}the conduct of an RCMP officer in the performance of their policing duties.{% endtrans %}
+
+            <p class="mrgn-bttm-0">
+                <strong>{{ 'and'|t }}</strong>
+            </p>
+        </li>
+
+        <li>
+            <span class="fa fa-li fa-check text-success"></span>{% trans %}an incident that occurred within the last 12 months.{% endtrans %}
+            <p>
+                {% trans %}If the incident occurred more than 12 months ago, please advise the individual making the complaint that they will need to provide additional information / justification for the delay in order to determine if a time extension will be granted.{% endtrans %}
+            </p>
+        </li>
+
+    </ul>
+
+    <p class="mrgn-tp-md">
+        <strong>
+            {% trans %}Individuals making a complaint need to be:{% endtrans %}
+        </strong>
+    </p>
+
+    <ul class="fa-ul">
+
+        <li class="mrgn-bttm-0">
+            <span class="fa fa-li fa-check text-success"></span>{% trans %}directly involved in the incident{% endtrans %}
+            <p class="mrgn-bttm-0">
+                <strong>
+                    {{ 'or'|t }}
+                </strong>
+            </p>
+        </li>
+
+        <li class="mrgn-bttm-0">
+            <span class="fa fa-li fa-check text-success"></span>{% trans %}a witness to the incident{% endtrans %}
+            <p class="mrgn-bttm-0">
+                <strong>
+                    {{ 'or'|t }}
+                </strong>
+            </p>
+        </li>
+
+        <li>
+            <span class="fa fa-li fa-check text-success"></span>{% trans %}a person authorized to act on behalf of the person directly involved in the incident{% endtrans %}
+        </li>
+
+    </ul>
+
+</div>
+
+<div class="wb-frmvld wb-fdbck nojs-hide">
+
+    {{ form.form_build_id }}
+    {{ form.form_token }}
+    {{ form.form_id }}
+
+    <fieldset class="mrgn-tp-xl">
+        <legend>{{ 'Complainant Contact Information'|t }}</legend>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.complainant_name_family }}
+            </div>
+            <div class="col-md-6">
+                {{ form.complainant_name_given }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.complainant_date_birth }}
+            </div>
+            <div class="col-md-6">
+                {{ form.complainant_address_mailing_street_nbr }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.complainant_address_mailing_city }}
+            </div>
+            <div class="col-md-6">
+                {{ form.complainant_address_mailing_province }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.complainant_address_mailing_postalcode }}
+            </div>
+            <div class="col-md-6">
+                {{ form.complainant_address_mailing_country }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.complainant_phone_home }}
+            </div>
+            <div class="col-md-6">
+                {{ form.complainant_email }}
+            </div>
+        </div>
+
+    </fieldset>
+
+    <fieldset class="mrgn-tp-xl">
+        <legend>{{ 'Questions'|t }}</legend>
+
+        {{ form.contact_for_messages_questions_form }}
+        {{ form.contact_for_messages_questions_informal }}
+        {{ form.complainant_language }}
+        {{ form.contact_tool }}
+        {{ form.contact_for_messages_questions_involved }}
+
+    </fieldset>
+
+    <fieldset class="mrgn-tp-xl">
+
+        <legend>{{ 'Representative Authorization'|t }}</legend>
+
+        <div class="alert alert-info mrgn-tp-xl">
+
+            <p>
+                {% trans %}Complete the following section <strong>ONLY</strong> if the complainant wants the Civilian Review and Complaints Commission for the RCMP (the Commission) and the RCMP to communicate directly with a legal representative or an advocate <strong>instead</strong> of the complainant.{% endtrans %}
+            </p>
+
+            <p>
+                {% trans %}Please advise the complainant that by providing this information they are  authorizing the Commission &amp; RCMP to:{% endtrans %}
+            </p>
+
+            <ul>
+                <li>
+                    {% trans %}Communicate directly with a legal representative or an advocate instead of the complainant; and{% endtrans %}
+                </li>
+                <li>
+                    {% trans %}Disclose information related to the complaint to the complainant's representative.{% endtrans %}
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="control-label" for="contact_for_messages_organization">
+                <span class="field-name">{{ form.contact_for_messages_organization['#title'] }}</span>
+            </label>
+
+            <ul>
+                <li>{{ 'Name'|t }}:</li>
+                <li>{{ 'Phone number'|t }}:</li>
+                <li>{{ 'Email address'|t }}:</li>
+            </ul>
+
+            {{ form.contact_for_messages_organization|without('#title') }}
+
+        </div>
+
+    </fieldset>
+
+    <fieldset class="mrgn-tp-xl">
+
+        <legend>{{ 'Details of Complaint (complete as much as possible)'|t }}</legend>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.incident_date }}
+            </div>
+            <div class="col-md-6">
+                {{ form.incident_time }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                {{ form.incident_location }}
+            </div>
+            <div class="col-md-6">
+                {{ form.incident_province }}
+            </div>
+        </div>
+
+        {{ form.incident_country }}
+
+        <div class="form-group">
+
+            <label class="control-label" for="circumstances">
+                <span class="field-name">
+                    {{ form.circumstances['#title'] }}
+                </span>
+            </label>
+
+            <p>{{ 'Please include:'|t }}</p>
+            <ul>
+                <li>{{ 'Who was involved'|t }}</li>
+                <li>{{ 'What was said and done'|t }}</li>
+                <li>{{ 'Was there any damage or injury'|t }}</li>
+                <li>{{ 'Is there any additional information the individual believes relates to the incident or affected their interaction with the RCMP'|t }}</li>
+            </ul>
+
+            {{ form.circumstances|without('#title') }}
+        </div>
+
+    </fieldset>
+
+    <fieldset class="mrgn-tp-xl">
+
+        <legend>{{ 'RCMP Member(s)'|t }}</legend>
+
+        <div class="form-group">
+
+            <label class="control-label" for="officer_entered_note">
+                <span class="field-name">
+                    {{ form.officer_entered_note['#title'] }}
+                </span>
+            </label>
+
+            <ul>
+                <li>{{ 'Name'|t }}</li>
+                <li>{{ 'Rank'|t }}</li>
+                <li>{{ 'Detachment'|t }}</li>
+            </ul>
+
+            {{ form.officer_entered_note|without('#title') }}
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="control-label" for="witness_entered_note">
+                <span class="field-name">
+                    {{ form.witness_entered_note['#title'] }}
+                </span>
+            </label>
+
+            <ul>
+                <li>{{ 'First Name, Last Name'|t }}: </li>
+                <li>{{ 'Contact Information (address, phone, email) if known'|t }}:</li>
+            </ul>
+
+            {{ form.witness_entered_note|without('#title') }}
+
+        </div>
+
+    </fieldset>
+
+    <fieldset class="mrgn-tp-xl">
+
+        <legend>{{ 'Privacy &amp; Disclosure of Personal Information'|t }}</legend>
+
+        <div class="alert alert-info mrgn-tp-xl">
+
+            <p>
+                <strong>{{ 'Member should advise complainant of the following:'|t }}</strong>
+            </p>
+
+            <ol>
+
+                <li>
+                    {% trans %}By submitting a completed complaint form, the complainant authorizes the Commission to collect personal information for the purposes related to Parts VI, VII, VII.1 and VII.2 of the <em>RCMP Act</em>. This information is held in personal information bank CRCC PPU 005, and the complainant has a right to access this information in accordance with the <em>Privacy Act</em>.{% endtrans %}
+                </li>
+
+                <li>
+                    {% trans %}Completed public complaint forms, along with all other relevant documentation the complainant provides to the Commission, will be forwarded to the RCMP for investigation pursuant to subsection 45.53(10) of the <em>RCMP Act</em> and an RCMP investigator may contact the complainant to provide a statement.{% endtrans %}
+                </li>
+
+            </ol>
+
+        </div>
+
+        {{ form.note_acknowledge }}
+
+    </fieldset>
+
+    <div class="row mrgn-tp-lg">
+
+        <div class="col-md-12">
+            {{ form.witness_added_note }}
+        </div>
+
+    </div>
+
+    {{ form.submit }}
+    {{ form.clear }}
+
+</div>

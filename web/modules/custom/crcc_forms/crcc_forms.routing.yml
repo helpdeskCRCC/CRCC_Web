@@ -1,0 +1,55 @@
+crcc_forms.complaint_form:
+  path: '/make-complaint-form'
+  defaults:
+    _form: '\Drupal\crcc_forms\Form\ComplaintForm'
+    _title: 'Complaint Form'
+  requirements:
+    _access: 'TRUE'
+
+crcc_forms.successful_submission_controller_thank_you:
+  path: '/thank-you'
+  defaults:
+    _controller: '\Drupal\crcc_forms\Controller\FormSubmissionController::thankYou'
+    _title: 'Thank you'
+  requirements:
+    _permission: 'access content'
+
+crcc_forms.failed_submission_controller_failed_submission:
+  path: '/failed-submission'
+  defaults:
+    _controller: '\Drupal\crcc_forms\Controller\FormSubmissionController::failedSubmission'
+    _title: 'Failed Submission'
+  requirements:
+    _permission: 'access content'
+
+crcc_forms.public_complaint_form:
+  path: '/fill-your-form'
+  defaults:
+    _form: '\Drupal\crcc_forms\Form\PublicComplaintForm'
+    _title: 'PUBLIC COMPLAINT FORM (for RCMP use only)'
+  requirements:
+    _access: 'TRUE'
+
+crcc_forms.successful_submission_controller_preview_and_submit:
+  path: '/preview-and-submit-form'
+  defaults:
+    _controller: '\Drupal\crcc_forms\Controller\FormSubmissionController::previewAndSubmit'
+    _title: 'Thank you'
+  requirements:
+    _permission: 'access content'
+
+crcc_forms.contact_form:
+  path: '/contact-form'
+  defaults:
+    _form: '\Drupal\crcc_forms\Form\ContactForm'
+    _title: 'Contact Form'
+  requirements:
+    _access: 'TRUE'
+
+crcc_forms.request_review_form:
+  path: '/request-review-form'
+  defaults:
+    _form: '\Drupal\crcc_forms\Form\RequestReviewForm'
+    _title: 'Request for Review Form'
+  requirements:
+    _access: 'TRUE'

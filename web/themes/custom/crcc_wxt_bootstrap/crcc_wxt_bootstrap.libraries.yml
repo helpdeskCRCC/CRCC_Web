@@ -1,0 +1,5 @@
+framework:
+  css:
+    theme:
+      css/style.css: {}
+      'https://use.fontawesome.com/releases/v5.4.2/css/all.css': { type: external }

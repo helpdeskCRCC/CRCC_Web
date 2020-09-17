@@ -1,0 +1,56 @@
+<?php
+
+/**
+ * @file
+ * Contains crcc_forms.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function crcc_forms_theme() {
+  return [
+
+    // Make complaint form theme.
+    'crcc_complaint_form' => [
+      'render element' => 'form',
+    ],
+
+    // Thank you page.
+    'crcc_successful_submission' => [
+      'variables' => [
+        'reference_number' => NULL,
+      ],
+    ],
+
+    // Failed submission page.
+    'crcc_failed_submission' => [
+      // TODO: figure out the necessary parameters.
+      'variables' => [],
+    ],
+
+    // Public complaint form theme.
+    'crcc_public_complaint_form' => [
+      'render element' => 'form',
+    ],
+
+    // Preview and submit form.
+    'crcc_preview_and_submit' => [
+      'variables' => [
+        'reference_number' => NULL,
+        'vals' => [],
+      ],
+    ],
+
+    // Contact theme.
+    'crcc_contact_form' => [
+      'render element' => 'form',
+    ],
+
+    // Request for Review Form.
+    'crcc_request_review_form' => [
+      'render element' => 'form',
+    ],
+
+  ];
+}

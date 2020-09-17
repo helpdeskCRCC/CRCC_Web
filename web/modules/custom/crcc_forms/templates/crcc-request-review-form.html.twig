@@ -1,0 +1,50 @@
+<p>
+    {% trans %}Please complete the following if you are dissatisfied with the RCMP's disposition of your complaint and request that the Commission  review your complaint.{% endtrans %}
+</p>
+
+<p>
+    {% trans %}<strong>Please note:</strong> In order for the Commission  to begin a review of your complaint, the RCMP MUST have completed their investigation and issued a Letter of Disposition.{% endtrans %}
+</p>
+
+
+<div class="wb-frmvld wb-fdbck nojs-hide">
+
+    {{ form.form_build_id }}
+    {{ form.form_token }}
+    {{ form.form_id }}
+
+    <fieldset class="mrgn-tp-lg">
+        <legend>{{ 'Requester Information'|t }}</legend>
+
+        {{ form.complainant_name_given }}
+        {{ form.complainant_name_family }}
+        {{ form.complainant_address_mailing_street_name }}
+        {{ form.complainant_address_mailing_city }}
+        {{ form.complainant_address_mailing_province }}
+        {{ form.complainant_address_mailing_postalcode }}
+        {{ form.complainant_address_mailing_country }}
+        {{ form.complainant_phone_home }}
+        {{ form.complainant_email }}
+
+    </fieldset>
+
+    <fieldset class="mrgn-tp-lg">
+        <legend>{{ 'Additional information about your complaint'|t }}</legend>
+
+        {{ form.incident_filenbr }}
+        {{ form.incident_cpcnbr }}
+
+        <div class="well">
+            <p>
+                {% trans %}<strong>NOTE:</strong> If you would like your entire complaint reviewed, please indicate “ENTIRE COMPLAINT” in the box below).{% endtrans %}
+            </p>
+        </div>
+
+        {{ form.circumstances }}
+
+    </fieldset>
+
+    {{ form.submit }}
+    {{ form.clear }}
+
+</div>

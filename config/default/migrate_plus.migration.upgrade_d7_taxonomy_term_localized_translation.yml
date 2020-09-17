@@ -1,0 +1,59 @@
+uuid: 69d2dffa-700e-4d30-aab1-1b9c8b65dc6d
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_taxonomy_term_localized_translation
+class: Drupal\migrate\Plugin\Migration
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+  - Multilingual
+migration_group: migrate_drupal_7
+label: 'Taxonomy localized term translations'
+source:
+  plugin: d7_term_localized_translation
+  translations: true
+process:
+  tid:
+    -
+      plugin: get
+      source: tid
+  langcode:
+    -
+      plugin: get
+      source: ltlanguage
+  vid:
+    -
+      plugin: migration_lookup
+      migration: upgrade_d7_taxonomy_vocabulary
+      source: vid
+  name:
+    -
+      plugin: callback
+      source:
+        - name_translated
+        - name
+      callable: array_filter
+    -
+      plugin: callback
+      callable: current
+  description:
+    -
+      plugin: callback
+      source:
+        - description_translated
+        - description
+      callable: array_filter
+    -
+      plugin: callback
+      callable: current
+destination:
+  plugin: 'entity:taxonomy_term'
+  translations: true
+migration_dependencies:
+  required:
+    - upgrade_d7_taxonomy_term_tags
+  optional:
+    - upgrade_d7_taxonomy_vocabulary

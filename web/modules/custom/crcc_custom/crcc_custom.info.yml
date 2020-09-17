@@ -1,0 +1,5 @@
+name: 'CRCC custom'
+type: module
+description: 'CRCC Custom'
+core: 8.x
+package: 'Custom'

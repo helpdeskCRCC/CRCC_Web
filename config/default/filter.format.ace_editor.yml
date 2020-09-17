@@ -1,0 +1,16 @@
+uuid: b042ef5e-0d99-4cd1-a568-4042424c26ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - php
+name: 'HTML / PHP Editor'
+format: ace_editor
+weight: -10
+filters:
+  php_code:
+    id: php_code
+    provider: php
+    status: true
+    weight: 0
+    settings: {  }

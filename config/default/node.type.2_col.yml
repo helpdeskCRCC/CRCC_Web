@@ -1,0 +1,19 @@
+uuid: d3646607-d563-4ceb-8776-b1db4795b367
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+      - menu-secondary-menu
+    parent: 'main-menu:478:'
+name: '2-Column Page'
+type: 2_col
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
